@@ -6,10 +6,12 @@ router.get("/", function (req, res){
     res.send("hey it's working (owner)");
 });
 
-console.log(process.env.NODE_ENV);
+require('dotenv').config();
+if(process.env.NODE_ENV === "development"){
+    router.post("/create", function (req, res){
+        res.send("hey it's working ");
+    });
+};
 
-router.post("/create", function (req, res){
-    res.send("hey it's working ");
-});
 
 module.exports = router;
