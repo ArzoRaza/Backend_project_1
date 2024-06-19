@@ -6,7 +6,7 @@ const ownersRouter = require("./routes/ownersRouter");
 const productsRouter = require("./routes/productsRouter");
 const userRouter = require("./routes/usersRouter");
 
-const db = require('./config/mongoose-connection');
+const db = require("./config/mongoose-connection");
 const ownerModel = require("./models/owner-model");
 
 app.use(express.json());
