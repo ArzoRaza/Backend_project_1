@@ -20,7 +20,7 @@ app.use("/users", userRouter);
 app.use("/products", productsRouter);
 
 app.get("/", (req, res) => {
-    res.send("hoolle")
+    res.send("akbar")
 })
 
 
