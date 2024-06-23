@@ -22,7 +22,6 @@ app.use("/products", productsRouter);
 app.get("/", (req, res) => {
     res.send("akbar Page")
 })
-// console.log(`The current environment is: ${process.env.NODE_ENV}`);
 
 
 
