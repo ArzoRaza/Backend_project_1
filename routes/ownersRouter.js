@@ -26,9 +26,9 @@ router.get("/", function (req, res) {
 });
 
 
-router.get("/", function (req, res) {
-    res.send("hey it's working (properly)");
-});
+// router.get("/", function (req, res) {
+//     res.send("hey it's working (properly)");
+// });
 
 
 
